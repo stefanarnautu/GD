@@ -369,7 +369,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Assets/Scripts/CameraFollow.cs"
 "Assets/Assets/Scripts/MouseFollow.cs"
+"Assets/Assets/Scripts/SpawnThePlatform.cs"
 -langversion:9.0
 
 /deterministic

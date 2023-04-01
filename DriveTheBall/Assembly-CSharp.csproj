@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Assets\Scripts\MouseFollow.cs" />
+    <Compile Include="Assets\Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Assets\Scripts\SpawnThePlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
