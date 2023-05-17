@@ -15,12 +15,13 @@ public class FinishALevel : MonoBehaviour
     {
       if (collision.gameObject.name == "Ball")
         {
-            Invoke("CompleteLevel", 1f);
+
+            Invoke("CompleteLevel", 0.5f);
         }  
     }
 
     private void CompleteLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(2);
     }
 }
